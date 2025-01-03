@@ -3,7 +3,7 @@ name: Deploy Flask App with Docker
 on:
   push:
     branches:
-      - master  # Trigger the workflow on pushes to the master branch
+      - main  # Trigger the workflow on pushes to the main branch (instead of master)
 
 jobs:
   build:
