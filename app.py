@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "updated the text1!"
+    return "Updated now by me!"
 
 if __name__ == "__main__":
     app.run(debug=True)
