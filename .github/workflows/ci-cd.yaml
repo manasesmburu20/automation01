@@ -35,7 +35,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: manasesmburu20/automation001-flask-app:latest
+          tags: docker push manassesmburu/automation01test:firstone
   # Replace with your Docker Hub repo
 
       - name: Deploy with Docker Compose (Remote Server)
