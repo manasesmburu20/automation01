@@ -35,8 +35,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: docker push manassesmburu/automation01test:firstone
-  # Replace with your Docker Hub repo
+          tags: manassesmburu/automation01test:firstone  # Corrected line: no 'docker push'
 
       - name: Deploy with Docker Compose (Remote Server)
         run: |
