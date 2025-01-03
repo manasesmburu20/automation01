@@ -35,7 +35,8 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: yourdockerhubusername/yourimage:latest  # Replace with your Docker Hub repo
+          tags: manasesmburu20/automation001-flask-app:latest
+  # Replace with your Docker Hub repo
 
       - name: Deploy with Docker Compose (Remote Server)
         run: |
